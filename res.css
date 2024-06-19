@@ -1,0 +1,140 @@
+h1{
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 80px;
+  font-style: normal;
+  color: antiquewhite;
+  margin-left: 50px;
+  top: 150px;
+}
+.header{
+    position: relative;
+    margin: 10px;
+    padding: 15px;
+    color: azure;
+}
+.nav{
+    position:absolute;
+    display: flex;
+    gap: 20px;
+    top: 8px;
+    left:90%;
+}
+.img{
+    float:left;
+    width:250px;
+    margin-left:70px ;
+}
+nav a:hover{
+    background-color:white;
+    
+}
+body{
+   background-color: black;
+}
+.table{
+    color: white;
+    font-size: larger;
+    margin-bottom: 50px;
+}
+.para{
+    font-size:1.5rem; font-weight: 200; margin-top:150px;margin-left:50px;
+}
+.img1{
+    border-radius: 10%;
+    float: left;
+    margin: 20px;
+}
+.img2{
+    border-radius: 5%;
+    float:left;
+    margin: 20px;
+}
+@media(max-width:500px){
+    h1{
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: 48px;
+        font-style: normal;
+        color: antiquewhite;
+        margin-left: 50px;
+        top: 150px;
+        text-align: center;
+      }
+      .header{
+          position: relative;
+          margin: 10px;
+          padding: 15px;
+          color: azure;
+      }
+      .nav{
+          position:absolute;
+          display: flex;
+          gap: 20px;
+          top: 12px;
+          left:65%;
+      }
+      .img{
+          position: absolute;
+          width:50%;
+          left: 15%;
+          
+      }
+      nav a:hover{
+          background-color:white;
+          
+      }
+      body{
+         background-color: black;
+      }
+      .table{
+          color: white;
+          font-size: larger;
+          margin-bottom: 50px;
+        
+      }
+      .para{
+          margin-top: 250px;
+      }
+      .school{
+        display:block;
+        width:600px;
+        text-align: justify;
+     
+    }
+    h2{
+        color: white;
+    }
+    p{
+        color: white;
+        font-size: larger;
+        margin-left: 100px;
+    }
+    .college{
+        display:block;
+        width: 700px;
+        text-align: justify;
+    }
+    
+}
+.school{
+    display:inline-block;
+    width:600px;
+    text-align: justify;
+ 
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+    font-size: larger;
+    margin-left: 100px;
+}
+.college{
+    display: inline-block;
+    width: 700px;
+    text-align: justify;
+}
